@@ -1,0 +1,44 @@
+body {
+    background: rgb(240, 240, 240);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: grid;
+    max-width: 1080px;
+    margin: 0 auto;
+    grid-template-columns: 25% 75%;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+nav {
+    background-image: linear-gradient(45deg, #EA425C, #FF3E4D);
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+li.active {
+    background: #ffffff47;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+img {
+    max-width: 100%;
+}
